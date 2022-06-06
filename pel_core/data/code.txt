@@ -1,0 +1,2 @@
+type b : { "text" };
+type a : { b };

@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="pel_core.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ast.hpp" />
+    <ClInclude Include="base_interpreter.hpp" />
+    <ClInclude Include="cpp_parser.hpp" />
+    <ClInclude Include="error.hpp" />
+    <ClInclude Include="graph.hpp" />
+    <ClInclude Include="groups.hpp" />
+    <ClInclude Include="memory_pool.hpp" />
+    <ClInclude Include="pel_core.hpp" />
+    <ClInclude Include="signal.hpp" />
+    <ClInclude Include="spatial4.hpp" />
+    <ClInclude Include="detail\file.hpp">
+      <Filter>detail</Filter>
+    </ClInclude>
+    <ClInclude Include="detail\flag.hpp">
+      <Filter>detail</Filter>
+    </ClInclude>
+    <ClInclude Include="detail\path.hpp">
+      <Filter>detail</Filter>
+    </ClInclude>
+    <ClInclude Include="detail\platform.hpp">
+      <Filter>detail</Filter>
+    </ClInclude>
+    <ClInclude Include="detail\string_function.hpp">
+      <Filter>detail</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="tests">
+      <UniqueIdentifier>{2fd2e520-4a71-4ea5-9efb-464c3a9ec620}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="detail">
+      <UniqueIdentifier>{9a6e111e-e09a-4ba6-b360-e727a9ac5c5a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
